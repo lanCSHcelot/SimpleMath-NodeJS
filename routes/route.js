@@ -6,6 +6,10 @@ router.get("/check", (req, res) => {
   res.send("Congratulations! Your app works! :)");
 });
 
+router.get("/Yo", (req, res) => {
+  res.send("Hacktober is cool :)");
+});
+
 router.post("add", (req, res) => {
   // Add logic here
 });
